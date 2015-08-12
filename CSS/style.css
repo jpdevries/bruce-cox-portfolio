@@ -69,6 +69,10 @@ time, mark, audio, video {
 	color: #CCCCCC;
 }
 
+.top-navigation .active a {
+	color: #4D4D4D;
+}
+
 .coffee {
 	background-image: url(https://images.unsplash.com/photo-1422433555807-2559a27433bd?q=80&fm=jpg&s=f4a3f331eed09d297e2a71e3dfea402d);
 	background-repeat: no-repeat;
