@@ -30,7 +30,7 @@ time, mark, audio, video {
 .top-navigation {
 	position: fixed;
 	background-color:#478273;
-	line-height: 0.5rem;
+	line-height: 0.25rem;
 	width: 100%;
 }
 
@@ -81,11 +81,11 @@ time, mark, audio, video {
 	font-family: 'Fugaz One', cursive;
 	font-size: 50px;
 	font-weight: 100;
-	color: #000000;
+	color: #333333;
 	-webkit-font-smoothing: antialiased;
 	padding-top: 5rem;
 	text-align: left;
-	padding-top: 20rem;
+	padding-top: 10rem;
 	padding-bottom: 1rem;
 	padding-left: 5rem;
 	padding-right: 5rem;
@@ -101,6 +101,15 @@ time, mark, audio, video {
 	margin-top: 20px;
 	padding-bottom: 30rem;
 	padding-left: 30rem;
+}
+
+.coffee h2 > a{
+	text-decoration: none;
+	color: #242424;
+}
+
+.coffee h2 a:hover {
+	color: #4D4D4D;
 }
 
 
