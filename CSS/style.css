@@ -18,16 +18,98 @@ time, mark, audio, video {
   font-size: 100%;
 }
 
-/*Header Section*/
+/*Common styles*/
+/*Header styles*/
+/*Content styles*/
+/*Footer styles*/
+/*Responsive CSS*/
 
-.banner-section {
+/*Navigation Section*/
+.top-navigation {
 	position: fixed;
-	height: 10%;
+	background-color:#478273;
+	line-height: 0.25rem;
 	width: 100%;
-	background-color: #FFFF99;
 }
 
-.banner-section h1 {
+.top-navigation .content {
+	width: 1099px;
+	height: 4.375rem;
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+.top-navigation ul {
 	text-align: center;
-	font-size: 5em;
+}
+
+.top-navigation .links li {
+	font-family: 'Monda', sans-serif;
+	font-size: 2rem;
+	font-weight: lighter;
+	color: #fff;
+	display: inline-block;
+	padding: 1em 1em 1em;
+
+}
+
+.top-navigation .links li:hover {
+	color: #CCCCCC;
+}
+
+.top-navigation a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.top-navigation a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+.top-navigation .active a {
+	color: #4D4D4D;
+}
+
+.coffee {
+	background-image: url(https://images.unsplash.com/photo-1422433555807-2559a27433bd?q=80&fm=jpg&s=f4a3f331eed09d297e2a71e3dfea402d);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.coffee h1 {
+	font-family: 'Fugaz One', cursive;
+	font-size: 50px;
+	font-weight: 100;
+	color: #333333;
+	-webkit-font-smoothing: antialiased;
+	padding-top: 5rem;
+	text-align: left;
+	padding-top: 10rem;
+	padding-bottom: 1rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.coffee h2 {
+	font-family: 'Fugaz One', cursive;
+	font-size: 2rem;
+	font-weight: 100;
+	color: #59597A;
+	webkit-font-smoothing: antialiased;
+	text-align: left;
+	margin-top: 20px;
+	padding-bottom: 30rem;
+	padding-left: 30rem;
+}
+
+.coffee h2 > a{
+	text-decoration: none;
+	color: #242424;
+}
+
+.coffee h2 a:hover {
+	color: #4D4D4D;
 }
