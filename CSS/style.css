@@ -26,40 +26,81 @@ time, mark, audio, video {
 
 /*Navigation Section*/
 .top-navigation {
-	position: fixed;
-	background-color:#478273;
+	position: static;
+	background-image: url(../images/binding_light.png);
 	line-height: 0.25rem;
 	width: 100%;
+	height: 3em;
+	padding-top: 2em;
+	
+	border-bottom: 1.5px solid #4D4C58;
+	
 }
 
-.top-navigation .content {
-	width: 1099px;
-	height: 4.375rem;
-	margin: 0 auto;
-	vertical-align: center;
-}
-
-.top-navigation ul {
-	text-align: center;
-}
-
-.top-navigation .links li {
-	font-family: 'Monda', sans-serif;
-	font-size: 2rem;
-	font-weight: lighter;
-	color: #fff;
+.hello {
 	display: inline-block;
-	padding: 1em 1em 1em;
-
+	vertical-align: baseline;
 }
 
-.top-navigation .links li:hover {
+
+.title p {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2.75em;
+	-webkit-font-smoothing: antialiased;
+	color: #4D4D4D;
+	text-align: center;
+	margin-top: -1.25em;
+	margin-bottom: .3em;
+}
+
+.content {
+	
+	height: 100%;
+	margin: 0 auto;
+}
+
+.links a:hover {
 	color: #CCCCCC;
 }
 
-.top-navigation a {
+.links li {
+	display: inline-block;
+	padding-right: 2.5em;
+}
+
+.links li a {
+	display: inline-block;
+	text-align: right;
+}
+
+
+.links-left li {
+	display: inline-block;
+	float: left;
+}
+
+.links-left a {
 	text-decoration: none;
-	color: #FFF;
+	color: #4D4D4D;
+	font-family: 'EB Garamond', serif;
+	font-size: 2.5em;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 2em;
+	float: left;
+}
+
+.links-right li {
+	display: inline-block;
+	float: right;
+}
+.links-right a {
+	text-decoration: none;
+	color: #4D4D4D;
+	font-family: 'EB Garamond', serif;
+	font-size: 2.5em;
+	-webkit-font-smoothing: antialiased;
+	padding-right: 2em;
+	float: right;
 }
 
 .top-navigation a:hover {
@@ -71,45 +112,187 @@ time, mark, audio, video {
 	color: #4D4D4D;
 }
 
-.coffee {
-	background-image: url(https://images.unsplash.com/photo-1422433555807-2559a27433bd?q=80&fm=jpg&s=f4a3f331eed09d297e2a71e3dfea402d);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+.main {
+	background-image: url(../images/gray_sand.png);
+	/*background-image:-webkit-image-set(url(‘../images/binding_light.png’) 1x, url(‘../images/binding_light_@2X.png’) 2x);*/
+	background-repeat: repeat;
 	width: 100%;
+	height: 28em;
+	border-bottom: 1.5px solid #4C4D58;
 }
 
-.coffee h1 {
-	font-family: 'Fugaz One', cursive;
-	font-size: 50px;
-	font-weight: 100;
-	color: #333333;
+.main h1 {
+	font-family: 'HomemadeApple', cursive;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #FFFFE1;
 	-webkit-font-smoothing: antialiased;
-	padding-top: 5rem;
+	text-shadow: 1px 1px #CCCC52;
 	text-align: left;
-	padding-top: 10rem;
-	padding-bottom: 1rem;
-	padding-left: 5rem;
-	padding-right: 5rem;
+	padding-top: 3.5em;
+	width: 85%;
+	margin: 0 auto;
 }
 
-.coffee h2 {
-	font-family: 'Fugaz One', cursive;
-	font-size: 2rem;
+.main h2 {
+	font-family: 'HomemadeApple', cursive;
+	font-size: 2.25rem;
 	font-weight: 100;
-	color: #59597A;
 	webkit-font-smoothing: antialiased;
 	text-align: left;
-	margin-top: 20px;
-	padding-bottom: 30rem;
-	padding-left: 30rem;
+	margin-top: 10px;
+	padding-bottom: 1em;
+	padding-left: 10em;
 }
 
-.coffee h2 > a{
+.main h2 > a {
 	text-decoration: none;
-	color: #242424;
+	color: #FFFFE1;
+	text-shadow: 1px 1px #CCCC52;
+	webkit-font-smoothing: antialiased;
 }
 
-.coffee h2 a:hover {
+.main h2 a:hover {
 	color: #4D4D4D;
 }
+
+.summary {
+	width: 100%;
+	height: 28em;
+	background-image: url(../images/p4.png);
+}
+
+.philosophy {
+	background-image: url(../images/p4.png);
+}
+
+.philosophy p {
+	font-family: 'EB Garamond', serif;
+	font-size: 2em;
+	-webkit-font-smoothing: antialiased;
+	color: #4D4D4D;
+	padding-top: 1em;
+	height: 2.5em;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.skills {
+	background-image: url(../images/p4.png);
+	height: 8em;
+
+}
+
+.skills h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+	-webkit-font-smoothing: antialiased;
+	color: #000F2E;
+	text-transform: uppercase;
+	border-bottom: 1px dashed #B8B8B8;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.skills p {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 1em;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+	-webkit-font-smoothing: antialiased;
+	color: #4D4D4D;
+}
+
+.about {
+	background-image: url(../images/p4.png);
+	height: 28em;
+}
+
+.about h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+	-webkit-font-smoothing: antialiased;
+	color: #000F2E;
+	text-transform: uppercase;
+	border-bottom: 1px dashed #B8B8B8;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about p {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 1em;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+	-webkit-font-smoothing: antialiased;
+	color: #4D4D4D;
+}
+
+
+#thinkful{
+	color: #4D4D4D;
+}
+
+#jp {
+	color: #4D4D4D;
+}
+
+.twitter {
+	text-decoration: none;
+	color: #55acee;
+	-webkit-font-smoothing: antialiased;
+	padding-right: 0.5em;
+	padding-left: .20em;
+}
+
+.linkedIn {
+	text-decoration: none;
+	color: #0077B5;
+	-webkit-font-smoothing: antialiased;
+	padding-right: 0.5em;
+	padding-left: .20em;
+}
+
+.github {
+	text-decoration: none;
+	color: #4183c4;
+	-webkit-font-smoothing: antialiased;
+	padding-left: .20em;
+}
+
+.banner { width:20%; margin:1em auto 2.5em; font-size:2em; font-family:"Fjalla One", sans-serif; line-height:1.75; text-transform:uppercase; z-index:1; -webkit-transform:skew(-5deg) rotate(-5deg); transform:skew(-5deg) rotate(-5deg); -webkit-backface-visibility:hidden; -webkit-font-smoothing: antialiased;}
+.ribbon { position:relative; background:#44758d; box-shadow:0 .5em 0 -.25em rgba(68,117,141,.4); padding:0 .5em .1em; color:#fff; text-align:center; } 
+.ribbon::before, .ribbon::after { position:absolute; display:block; content:''; border:.75em solid #44758d; z-index:-1; } 
+.ribbon::before { top:-.5em; left:-1.75em; border-right-width:2.5em; border-left-color:transparent; } 	
+.ribbon::after { bottom:-.5em; right:-1.75em; border-left-width:2.5em; border-right-color:transparent; } 
+.ribbon-content::before, .ribbon-content::after { position:absolute; display:block; content:''; border-style:solid; }
+.ribbon-content::before { top:-.5em; left:0; border-width:0 0 .5em 1.5em; border-color:transparent transparent #1e4d64 transparent; }
+.ribbon-content::after { bottom:-.5em; right:0; border-width:.5em 1.5em 0 0; border-color:#1e4d64 transparent transparent transparent; }
+
+.footer {
+	padding-bottom: 1em;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.25em;
+	color: #FFF;
+	-webkit-font-smoothing: antialiased;
+	background-image: url(../images/gray_sand.png);
+}
+
+.footer p {
+	padding-top: .65em;
+}
+
+.footer >p > i {
+	padding-right: .25em;
+}
+
+
+
+
+
+
